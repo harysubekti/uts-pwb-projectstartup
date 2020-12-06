@@ -53,6 +53,7 @@
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                               <a class="dropdown-item" href="http://127.0.0.1:8000/input">MENTOR START-UP!</a>
                               <a class="dropdown-item" href="http://127.0.0.1:8000/about">ABOUT US!</a>
+                              <a class="dropdown-item" href="http://127.0.0.1:8000/upload">UPLOAD FOTO DOKUMENTASI</a>
                               <div class="dropdown-divider"></div>
                             </div>
 

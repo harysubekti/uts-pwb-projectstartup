@@ -16,9 +16,9 @@ class StartupController extends Controller
         $this->validate($request,[
            'nama' => 'required|min:5|max:20',
            'nim' => 'required',
-           'usia' => 'required|numeric'
+           'usia' => 'required|numeric',
         ]);
- 
+
         return view('proses',['data' => $request]);
     }
 }

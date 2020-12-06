@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ControllerPertama;
 use App\Http\Controllers\StartupController;
+use App\Http\Controllers\UploadController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,3 +29,6 @@ Route::get("/edukasi", [ControllerPertama::class, "third"]);
 Route::get('/input', 'App\Http\Controllers\StartupController@input');
 Route::post('/proses', 'App\Http\Controllers\StartupController@proses');
 Route::get("/about", [ControllerPertama::class, "about"]);
+Route::get('/upload', 'App\Http\Controllers\UploadController@upload');
+Route::post('/upload/proses', 'App\Http\Controllers\UploadController@proses_upload');
+Route::post('/upload/proses/hapus', 'App\Http\Controllers\UploadController@proses_upload');
